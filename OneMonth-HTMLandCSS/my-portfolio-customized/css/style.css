@@ -1,0 +1,87 @@
+/* 
+
+Project Name: Just Be
+Client: A Wellness Center
+Author: Ana Cavell (template by Chris Castiglione - Developed @ OneMonth in NYC)
+*/
+
+body {
+    background: url('../images/woman-face.png');
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container-1{
+    background: url('../images/container-background.png');
+    width: 424px;
+    color: white;
+    padding: 15px;
+
+}
+
+#container-2{
+    background: url('../images/container-background.png');
+    width: 424px;
+    color: white;
+    padding: 15px;
+
+}
+
+#container-3{
+    background: url('../images/container-background-3.png');
+    width: 424px;
+    color: white;
+    padding: 15px;
+
+}
+h1 { 
+    font-size: 60px;
+    color: #54ECFA;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    background: #54ECFA;
+    font-size: 26px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Source Sans Pro:wght@200', sans-serif;
+}
+
+a {
+    color: #54ECFA;
+    text-decoration: none; /* gets rid of the undeline between the social media icons */  
+}
+
+iframe {
+    width: 424px;
+    padding: 15px;
+}
+
